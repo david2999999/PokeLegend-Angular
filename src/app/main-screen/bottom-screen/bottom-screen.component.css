@@ -1,8 +1,24 @@
 .bottom-screen {
   width: 100%;
-  background-color: black;
+  background: lightcyan;  /* fallback for old browsers */
   border-radius: 10px;
-  padding: 10px 0;
+}
+
+.bottom-screen__outline {
+  height: 40px;
+  background-color: #82ccdd;
+}
+
+.bottom-screen__outline-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.bottom-screen__outline-bottom {
+  margin-top: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .bottom-screen__fight{

@@ -13,15 +13,14 @@
 }
 
 .button-inner {
-  width: 95%;
-  height: 90%;
-  border-radius: 5px;
+  width: 93%;
+  height: 100%;
   background-color: rgba(0, 0, 0, .3);
   margin: auto;
-  vertical-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: inset 0px 0px 20px 20px rgba(85,92,92,.1);
 }
 
 .button-small {
@@ -36,8 +35,8 @@
 
 .button-large {
   font-size: 1.5rem;
-  width: 300px;
-  height: 150px;
+  width: 500px;
+  height: 200px;
 }
 
 .button:hover {
@@ -51,7 +50,7 @@
   -webkit-box-shadow: 0px 0px 18px 0px rgba(148,146,148,1);
   -moz-box-shadow: 0px 0px 18px 0px rgba(148,146,148,1);
   box-shadow: 0px 0px 18px 0px rgba(148,146,148,1);
-  transform: translateY(-3px);
+  transform: translateY(1px);
 }
 
 .button-fight{
