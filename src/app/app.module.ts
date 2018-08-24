@@ -16,9 +16,11 @@ import { TmBagComponent } from './bag/tm-bag/tm-bag.component';
 import {PokemonPcService} from './shared/services/pokemon-pc.service';
 import {PokemonService} from './shared/services/pokemon.service';
 import {PlayerService} from './shared/services/player.service';
-import { ButtonComponent } from './button/button.component';
+import { ButtonComponent } from './buttons/button/button.component';
 import { TopScreenComponent } from './main-screen/top-screen/top-screen.component';
 import { BottomScreenComponent } from './main-screen/bottom-screen/bottom-screen.component';
+import { BattleScreenComponent } from './main-screen/bottom-screen/battle-screen/battle-screen.component';
+import { BattleButtonComponent } from './buttons/battle-button/battle-button.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { BottomScreenComponent } from './main-screen/bottom-screen/bottom-screen
     TmBagComponent,
     ButtonComponent,
     TopScreenComponent,
-    BottomScreenComponent
+    BottomScreenComponent,
+    BattleScreenComponent,
+    BattleButtonComponent
   ],
   imports: [
     BrowserModule
