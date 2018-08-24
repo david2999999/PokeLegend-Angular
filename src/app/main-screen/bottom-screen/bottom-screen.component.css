@@ -1,7 +1,21 @@
 .bottom-screen {
   width: 100%;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px 0;
 }
 
 .bottom-screen__fight{
 
+}
+
+.bottom-screen__container{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bottom-screen__side {
+  margin-top: -10px;
 }

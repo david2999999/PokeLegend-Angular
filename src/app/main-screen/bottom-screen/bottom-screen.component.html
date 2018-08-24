@@ -2,7 +2,15 @@
   <div class="bottom-screen__fight">
     <app-button [text]="'fight'" [size]="'large'"></app-button>
   </div>
-  <app-button [text]="'bag'" [size]="'medium'"></app-button>
-  <app-button [text]="'run'" [size]="'medium'"></app-button>
-  <app-button [text]="'pokemon'" [size]="'medium'"></app-button>
+  <div class="bottom-screen__container">
+    <div class="bottom-screen__side">
+      <app-button [text]="'bag'" [size]="'medium'"></app-button>
+    </div>
+    <div class="bottom-screen__center">
+      <app-button [text]="'run'" [size]="'medium'"></app-button>
+    </div>
+    <div class="bottom-screen__side">
+      <app-button [text]="'pokemon'" [size]="'medium'"></app-button>
+    </div>
+  </div>
 </div>
