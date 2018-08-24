@@ -11,12 +11,15 @@ export class BattleButtonComponent implements OnInit {
   @Input() ppTotal: string;
   @Input() ppLeft: string;
 
+  typeClass: string;
   buttonClass: string;
 
   constructor() { }
 
   ngOnInit() {
-    this.buttonClass = `battle-button battle-button__${this.type}`;
+    this.typeClass = `battle-button__type battle-button__${this.type.toLowerCase()}`;
+    this.buttonClass = `battle-button battle-button__${this.type.toLowerCase()}`;
+
   }
 
 }
