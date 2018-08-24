@@ -17,6 +17,8 @@ import {PokemonPcService} from './shared/services/pokemon-pc.service';
 import {PokemonService} from './shared/services/pokemon.service';
 import {PlayerService} from './shared/services/player.service';
 import { ButtonComponent } from './button/button.component';
+import { TopScreenComponent } from './main-screen/top-screen/top-screen.component';
+import { BottomScreenComponent } from './main-screen/bottom-screen/bottom-screen.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { ButtonComponent } from './button/button.component';
     MedicineBagComponent,
     PokeballBagComponent,
     TmBagComponent,
-    ButtonComponent
+    ButtonComponent,
+    TopScreenComponent,
+    BottomScreenComponent
   ],
   imports: [
     BrowserModule
