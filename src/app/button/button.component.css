@@ -1,6 +1,4 @@
 .button {
-  padding: 30px 50px;
-  font-size: 1.3rem;
   font-weight: bold;
   letter-spacing: 1px;
   color: white;
@@ -12,6 +10,22 @@
   -moz-box-shadow: 0px 0px 18px 0px rgba(148,146,148,1);
   box-shadow: 0px 0px 18px 0px rgba(148,146,148,1);
   border: 4px white solid;
+}
+
+.button-small {
+
+}
+
+.button-medium{
+  font-size: 1.3rem;
+  width: 200px;
+  height: 100px;
+}
+
+.button-large {
+  font-size: 1.7rem;
+  width: 250px;
+  height: 150px;
 }
 
 .button:hover {

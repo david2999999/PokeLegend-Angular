@@ -14,6 +14,6 @@ export class ButtonComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.buttonClass = `button button-${this.text}`;
+    this.buttonClass = `button button-${this.text} button-${this.size}`;
   }
 }
