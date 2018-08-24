@@ -16,6 +16,7 @@ import { TmBagComponent } from './bag/tm-bag/tm-bag.component';
 import {PokemonPcService} from './shared/services/pokemon-pc.service';
 import {PokemonService} from './shared/services/pokemon.service';
 import {PlayerService} from './shared/services/player.service';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import {PlayerService} from './shared/services/player.service';
     MailBagComponent,
     MedicineBagComponent,
     PokeballBagComponent,
-    TmBagComponent
+    TmBagComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule
