@@ -2,6 +2,7 @@
   width: 100%;
   background: lightcyan;  /* fallback for old browsers */
   border-radius: 10px;
+  height: 480px;
 }
 
 .bottom-screen__outline {

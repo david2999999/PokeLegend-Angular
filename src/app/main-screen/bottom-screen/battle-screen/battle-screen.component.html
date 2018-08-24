@@ -1,8 +1,10 @@
 <div class="battle-screen">
-  <app-battle-button
-    [text]="'Hypnosis'"
-    [type]="'Psychic'"
-    [ppTotal]="10"
-    [ppLeft]="5">
-  </app-battle-button>
+  <div class="battle-screen__button" *ngFor="let skill of skills">
+    <app-battle-button
+      [text]="skill.skillName"
+      [type]="skill.type"
+      [ppTotal]="skill.ppTotal"
+      [ppLeft]="skill.ppLeft">
+    </app-battle-button>
+  </div>
 </div>
