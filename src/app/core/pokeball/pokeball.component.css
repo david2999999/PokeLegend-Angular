@@ -1,0 +1,33 @@
+.pokeball{
+  /*box-sizing: border-box;*/
+  background: rgba(255,0,0,1); /*The rgba() function define colors using the Red-green-blue-alpha (RGBA) model.*/
+  background: linear-gradient(to bottom, rgba(255,0,0,1) 50%, rgba(255,255,255,1) 50%); /*The linear-gradient() function sets a linear gradient as the background image.*/
+  height: 32px;
+  width: 32px;
+
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px black;
+  position: relative;
+}
+.pokeball:before, .pokeball:after {
+  content: "";
+  position: absolute;
+}
+.pokeball:before { /*center black stripe*/
+  background: black;
+  height: 1px;
+  width: 100%;
+  left: 0; /*prevents any weird shifts of the stripe*/
+  top: calc(32px/2 - 1px/2); /* height of ball minus half of the height of stripe*/
+}
+.pokeball:after { /*center circle*/
+  /*box-sizing: border-box;*/
+  background: white;
+  border: 1px solid black;
+  box-shadow: inset 0 0 0 0.75px white, inset 0 0 0 1px black;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  top: calc(32px/2 - 8px/2); /* height of ball minus half of the height of circle*/
+  left: calc(32px/2 - 8px/2);
+}

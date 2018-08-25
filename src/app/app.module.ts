@@ -21,6 +21,7 @@ import { TopScreenComponent } from './main-screen/top-screen/top-screen.componen
 import { BottomScreenComponent } from './main-screen/bottom-screen/bottom-screen.component';
 import { BattleScreenComponent } from './main-screen/bottom-screen/battle-screen/battle-screen.component';
 import { BattleButtonComponent } from './buttons/battle-button/battle-button.component';
+import { PokeballComponent } from './core/pokeball/pokeball.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { BattleButtonComponent } from './buttons/battle-button/battle-button.com
     TopScreenComponent,
     BottomScreenComponent,
     BattleScreenComponent,
-    BattleButtonComponent
+    BattleButtonComponent,
+    PokeballComponent
   ],
   imports: [
     BrowserModule
